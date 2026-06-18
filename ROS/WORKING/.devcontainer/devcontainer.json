@@ -1,0 +1,6 @@
+{
+  "name": "ROS2 Humble",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "ros",
+  "workspaceFolder": "/workspace"
+}

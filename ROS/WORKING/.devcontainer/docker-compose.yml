@@ -1,0 +1,8 @@
+version: "3"
+services:
+  ros:
+    image: osrf/ros:humble-desktop
+    volumes:
+      - ..:/workspace
+    command: sleep infinity
+    tty: true
